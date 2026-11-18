@@ -11,7 +11,7 @@ ServerFileName = LotusAI-WindowsAgent-x64-2.13.3.3-update.msi
 Flags = Os64|Advertises|SilentInstall
 RegistryKey = HKUD\Software\Lotus AI Pty Ltd\Lotus AI Windows Agent\Version
 Version = 2.13.3.3
-CommandLine = /qn
-NoGUICommandLineSwitch = /qn
+CommandLine = /qn MSIRMSHUTDOWN=1
+NoGUICommandLineSwitch = /qn MSIRMSHUTDOWN=1
 AutoCloseApplication = [APPDIR]LotusAIAgent.exe
 Description = Upgrade test: agent closes and restarts.
