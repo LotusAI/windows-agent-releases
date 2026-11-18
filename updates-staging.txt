@@ -1,0 +1,12 @@
+;aiu;
+
+[2.13.3.1]
+Name = Lotus AI Windows Agent
+ProductVersion = 2.13.3.1
+URL = https://github.com/LotusAI/windows-agent-releases/releases/download/v2.13.3.1-staging/LotusAI-WindowsAgent-x64-2.13.3.1-update.msi
+Size = 11719680
+SHA256 = 3FF79B3B92C931C64DD89EC4334569145B2BF7097E7B299BDF530C0A8E1449B9
+MD5 = e9570c5103b859b7fdfd85ca6a8971f7
+ServerFileName = LotusAI-WindowsAgent-x64-2.13.3.1-update.msi
+Flags = Os64
+Description = Upgrade test.
