@@ -1,5 +1,21 @@
 ;aiu;
 
+[2.14.3.0]
+Name = Lotus AI Windows Agent
+ProductVersion = 2.14.3.0
+URL = https://github.com/LotusAI/windows-agent-releases/releases/download/v2.14.3.0/LotusAI-WindowsAgent-x64-2.14.3.0-update.msi
+Size = 11726336
+SHA256 = 56A3DCC7FD07CD6138D0CA402A841C90ADEC6430231D6E3E98ED8BA19DE2724F
+MD5 = d6a4a61e32be5521350b0b9657727204
+ServerFileName = LotusAI-WindowsAgent-x64-2.14.3.0-update.msi
+Flags = Os64|Advertises|SilentInstall
+RegistryKey = HKUD\Software\Lotus AI Pty Ltd\Lotus AI Windows Agent\Version
+Version = 2.14.3.0
+CommandLine = /qn MSIRMSHUTDOWN=1
+NoGUICommandLineSwitch = /qn MSIRMSHUTDOWN=1
+AutoCloseApplication = [APPDIR]LotusAIAgent.exe
+Description = Start menu, Desktop and Startup shortcuts renamed to Lotus Agent.
+
 [2.14.2.0]
 Name = Lotus AI Windows Agent
 ProductVersion = 2.14.2.0
