@@ -1,5 +1,21 @@
 ;aiu;
 
+[2.14.4.0]
+Name = Lotus AI Windows Agent
+ProductVersion = 2.14.4.0
+URL = https://github.com/LotusAI/windows-agent-releases/releases/download/v2.14.4.0/LotusAI-WindowsAgent-x64-2.14.4.0-update.msi
+Size = 11731456
+SHA256 = 42857085A614E7241D95BF514BF8C1ECEAC4BB6CED9FE8FF71CFE98DC11AD734
+MD5 = 123d1c6dc47015d4cfb3aa4b878c3ae3
+ServerFileName = LotusAI-WindowsAgent-x64-2.14.4.0-update.msi
+Flags = Os64|Advertises|SilentInstall
+RegistryKey = HKUD\Software\Lotus AI Pty Ltd\Lotus AI Windows Agent\Version
+Version = 2.14.4.0
+CommandLine = /qn MSIRMSHUTDOWN=1
+NoGUICommandLineSwitch = /qn MSIRMSHUTDOWN=1
+AutoCloseApplication = [APPDIR]LotusAIAgent.exe
+Description = Updated banner after an update; self-update waits while you're mid-task.
+
 [2.14.3.0]
 Name = Lotus AI Windows Agent
 ProductVersion = 2.14.3.0
