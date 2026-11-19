@@ -1,17 +1,17 @@
 ;aiu;
 
-[2.14.3.0]
+[2.14.5.0]
 Name = Lotus AI Windows Agent
-ProductVersion = 2.14.3.0
-URL = https://github.com/LotusAI/windows-agent-releases/releases/download/v2.14.3.0-staging/LotusAI-WindowsAgent-x64-2.14.3.0-update.msi
-Size = 11726336
-SHA256 = B0AFBB8F79986EEE4303DD02B8BDBBD142A104556EE0E87E1FECB454001F81B8
-MD5 = 784ac246490a3000b13bf8e5dca43220
-ServerFileName = LotusAI-WindowsAgent-x64-2.14.3.0-update.msi
+ProductVersion = 2.14.5.0
+URL = https://github.com/LotusAI/windows-agent-releases/releases/download/v2.14.5.0-staging/LotusAI-WindowsAgent-x64-2.14.5.0-update.msi
+Size = 11744256
+SHA256 = C2C0CCADB243C66DA93FF9DBAD6AD5A4892A29BD6ED3F3F3EFBDF3B8F7263078
+MD5 = a1ce50f29e49b09993c6d8a4a0e50eaf
+ServerFileName = LotusAI-WindowsAgent-x64-2.14.5.0-update.msi
 Flags = Os64|Advertises|SilentInstall
 RegistryKey = HKUD\Software\Lotus AI Pty Ltd\Lotus AI Windows Agent\Version
-Version = 2.14.3.0
+Version = 2.14.5.0
 CommandLine = /qn MSIRMSHUTDOWN=1
 NoGUICommandLineSwitch = /qn MSIRMSHUTDOWN=1
 AutoCloseApplication = [APPDIR]LotusAIAgent.exe
-Description = Shortcut rename test (Lotus Agent).
+Description = Diagnostics, installer lock, -nogui.
